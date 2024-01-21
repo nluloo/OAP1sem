@@ -1,0 +1,31 @@
+﻿Сборка начата 03.11.2023 02:53:14.
+Уровень детализации журнала: Normal.     1>Проект "D:\labs\ОАП\11lab\ex2\ex2.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\ex2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\ex2.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt ex2.cpp
+         ex2.cpp
+     1>D:\labs\ОАП\11lab\ex2\ex2.cpp(5,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\labs\ОАП\11lab\ex2\ex2.cpp(36,47): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>D:\labs\ОАП\11lab\ex2\ex2.cpp(36,57): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+       Link:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\labs\ОАП\11lab\x64\Debug\ex2.exe" /INCREMENTAL /ILK:"x64\Debug\ex2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\labs\ОАП\11lab\x64\Debug\ex2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\labs\ОАП\11lab\x64\Debug\ex2.lib" /MACHINE:X64 x64\Debug\ex2.obj
+         ex2.vcxproj -> D:\labs\ОАП\11lab\x64\Debug\ex2.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\ex2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\ex2.tlog\ex2.lastbuildstate".
+     1>Сборка проекта "D:\labs\ОАП\11lab\ex2\ex2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\labs\ОАП\11lab\ex2\ex2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\labs\ОАП\11lab\ex2\ex2.cpp(5,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\labs\ОАП\11lab\ex2\ex2.cpp(36,47): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         D:\labs\ОАП\11lab\ex2\ex2.cpp(36,57): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:01.94

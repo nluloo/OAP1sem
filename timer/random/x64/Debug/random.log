@@ -1,0 +1,29 @@
+﻿Сборка начата 22.11.2023 17:07:08.
+Уровень детализации журнала: Normal.     1>Проект "D:\labs\ОАП\timer\random\random.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\random.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\random.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt rand.cpp
+         rand.cpp
+     1>D:\labs\ОАП\timer\random\rand.cpp(6,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\labs\ОАП\timer\random\rand.cpp(8,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\labs\ОАП\timer\x64\Debug\random.exe" /INCREMENTAL /ILK:"x64\Debug\random.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\labs\ОАП\timer\x64\Debug\random.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\labs\ОАП\timer\x64\Debug\random.lib" /MACHINE:X64 x64\Debug\rand.obj
+         random.vcxproj -> D:\labs\ОАП\timer\x64\Debug\random.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\random.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\random.tlog\random.lastbuildstate".
+     1>Сборка проекта "D:\labs\ОАП\timer\random\random.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\labs\ОАП\timer\random\random.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\labs\ОАП\timer\random\rand.cpp(6,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\labs\ОАП\timer\random\rand.cpp(8,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.75

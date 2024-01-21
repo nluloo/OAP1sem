@@ -1,0 +1,20 @@
+﻿Сборка начата 20.12.2023 04:07:08.
+Уровень детализации журнала: Normal.     1>Проект "D:\labs\ОАП\referati\param1\param1\param1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\param1.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt param.cpp
+         param.cpp
+       Link:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\labs\ОАП\referati\param1\x64\Debug\param1.exe" /INCREMENTAL /ILK:"x64\Debug\param1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\labs\ОАП\referati\param1\x64\Debug\param1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\labs\ОАП\referati\param1\x64\Debug\param1.lib" /MACHINE:X64 x64\Debug\param.obj
+         param1.vcxproj -> D:\labs\ОАП\referati\param1\x64\Debug\param1.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\param1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\param1.tlog\param1.lastbuildstate".
+     1>Сборка проекта "D:\labs\ОАП\referati\param1\param1\param1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.93
